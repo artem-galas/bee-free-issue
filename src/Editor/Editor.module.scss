@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  h2 {
+    margin: 0;
+    flex: 1 1 auto;
+  }
+}

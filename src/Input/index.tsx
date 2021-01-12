@@ -21,7 +21,7 @@ export const InputCmp = ({ templateName, onNameChange }: InputCmpProp) => {
   return (
     <>
       <TextField outlined label="Placeholder" onChange={change} value={name} />
-      <Button label="Save" raised onClick={triggerChange} />
+      <Button label="Update Template name state" raised onClick={triggerChange} />
     </>
   )
 }
